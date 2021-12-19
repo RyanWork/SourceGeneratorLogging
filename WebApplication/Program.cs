@@ -51,7 +51,7 @@ namespace WebApplication
     {
         public static void Main(string[] args)
         {
-            // **** Uncomment for Running Web Host ****
+            /* Uncomment for Running Web Host */
             // var builder = Microsoft.AspNetCore.Builder.WebApplication.CreateBuilder();
             //
             // builder.Services
@@ -64,7 +64,7 @@ namespace WebApplication
             //
             // app.Run();
         
-            // **** Uncomment for Benchmarks ****
+            /* Uncomment for Benchmarks */
             // BenchmarkRunner.Run<BenchmarkTests>();
         }
     }
